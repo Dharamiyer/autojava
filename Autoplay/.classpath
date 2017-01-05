@@ -36,5 +36,7 @@
 	<classpathentry kind="lib" path="/Users/dharam/Documents/Seleniumdriver/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="/Users/dharam/Documents/Seleniumdriver/lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="/Users/dharam/Documents/Seleniumdriver/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/dharam/Documents/Seleniumdriver/site_assembly/plugins/org.testng.eclipse_6.10.0.201612030230.jar"/>
+	<classpathentry kind="lib" path="/Users/dharam/Documents/Seleniumdriver/site_assembly/plugins/org.testng.eclipse.maven_6.10.0.201612030230.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

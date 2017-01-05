@@ -1,8 +1,6 @@
 package javapac;
 import java.io.*;
-
 public class fibonacci {
-
 	public static void main(String[] args) {
 		int a = 0; 
 		int b = 0;
