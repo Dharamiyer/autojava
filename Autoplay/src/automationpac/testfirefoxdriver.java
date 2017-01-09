@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class testfirefoxdriver {
 
 	public static void main(String[] args) {
-System.setProperty("webdriver.gecko.driver", "/Users/dharam/Documents/Seleniumdriver/geckodriver");
+System.setProperty("webdriver.gecko.driver", "/Users/dharam/Documents/Driversnstuff/geckodriver");
 		
 		
 		WebDriver driver = new FirefoxDriver();
