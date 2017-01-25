@@ -16,5 +16,6 @@
 	<classpathentry kind="lib" path="/Users/dharam/Documents/Driversnstuff/Apachelib/httpmime-4.5.2.jar"/>
 	<classpathentry kind="lib" path="/Users/dharam/Documents/Driversnstuff/Apachelib/jna-4.1.0.jar"/>
 	<classpathentry kind="lib" path="/Users/dharam/Documents/Driversnstuff/Apachelib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

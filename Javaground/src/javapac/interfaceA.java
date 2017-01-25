@@ -1,8 +1,10 @@
 package javapac;
 
 public interface interfaceA {
-	public void iCook();
-	public void iDrink();
+	public static void iCook(String name) {
+		System.out.println("I can cook "+ name);
+	}
+	public void iDrink(); 
 }
 
 

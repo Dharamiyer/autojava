@@ -3,19 +3,21 @@ package javapac;
 public class implementA implements interfaceA{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		interfaceA.iCook("now");
+		implementA impa = new implementA();
+		impa.iCook("nothing");
+		impa.iDrink();
 
 	}
 
-	@Override
-	public void iCook() {
-		// TODO Auto-generated method stub
+	public static void iCook(String name) {
+		System.out.println("the name is :" +name);
 		
 	}
 
 	@Override
 	public void iDrink() {
-		// TODO Auto-generated method stub
+		System.out.println("I drink coffee");
 		
 	}
 
