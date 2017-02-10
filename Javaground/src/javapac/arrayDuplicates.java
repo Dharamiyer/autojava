@@ -8,7 +8,7 @@ import java.util.Map.Entry;
 public class arrayDuplicates {
 
 	public static void main(String[] args) {
-		int[] arr = {2,4,4,5,5,9,7,9,9};
+		int[] arr = {2,4,4,5,5,9,7,9,9,9,9,9,18,18,18,18,18,18,18,18,182,4};
 		HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
 		int len = arr.length;
 		for (int i = 0; i < len; i++) {
@@ -35,11 +35,25 @@ public class arrayDuplicates {
 		
 		// Using Entryset 
 		System.out.println("Using entryset" + "/n");
+		int maxrep = 0;
+		int maxkey = -1;
 		for (Entry<Integer, Integer> entry : hm.entrySet()) {
 		    Object key = entry.getKey();
 		    Object value = entry.getValue();
-		    System.out.println("Number " + key + " is repeated " + value+ " times");
+		    if((Integer)value > maxrep) {
+		    	maxrep= (Integer)value;
+		    	maxkey = (Integer)key;
+		    	
+		    	
+		    }
+		    System.out.println("Number " + key + " is repeated " + value+ " times" );
+		   
 		}
+		 System.out.println("Number " + maxkey + " is repeated most times : " + maxrep+ " times" );
+		
+		
+		// lets get the most repeated number
+		
 
 	}
 	

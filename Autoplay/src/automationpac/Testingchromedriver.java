@@ -39,6 +39,15 @@ public class Testingchromedriver {
 		WebDriverWait wait = new WebDriverWait(driver, 5);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("notnow")));
 		wait.until(ExpectedConditions.elementToBeClickable(By.className("notnow")));
+		
+	String css = "body > div.neweleccont.ntopnav_wrap_opt > div > div > div > div > div.topnav_cont > a:nth-child(5)";
+	String xp = "/html/body/div[2]/div/div/div/div/div[2]/a[5]";
+//	  if( driver.findElement(By.cssSelector("#body > div.neweleccont.ntopnav_wrap_opt > div > div > div > div > div.topnav_cont > a:nth-child(5))")) !=null) {
+//		  System.out.println("foundelementCSS");
+//	  }
+	  if( driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/a[5]")) !=null) {
+		  System.out.println("foundelementxpath");
+	  }
 	
 //		if(driver.findElement(By.className("notnow")).isDisplayed());
 		driver.findElement(By.className("notnow")).click();
