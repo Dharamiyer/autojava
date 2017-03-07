@@ -4,7 +4,7 @@ public class bubblesort {
 
 	public static void main(String[] args) {
 		
-		int[] numbers = { 1,2,3,4,5,4,5,6,7,8 };
+		int[] numbers = { 18,9,2,6,1 };
 		int arrlen= numbers.length;
 		int tempVar;
 		for (int i = 0; i < arrlen; i++)

@@ -1,12 +1,13 @@
 package revisePac;
 
 import java.util.HashMap;
+import java.util.Map.Entry;
 
 public class mostRepeated {
 
 	public static void main(String[] args) {
-	String str = "this string has many reoeated words repeated many times. repeated times find repeated times.";
-	String reg = "[.!,\\s]+";
+	String str = "repeated string repeated words in string max repeated words that are repeatred";
+	String reg = "[ ,.?!+]" ;// "[.!,\\s]+"
 	String[] sarray = str.split(reg);
 	System.out.println(sarray.length);
 	int len = sarray.length;
@@ -19,6 +20,12 @@ public class mostRepeated {
 		else {
 			hm.put(sarray[i], 1);
 		}
+	}
+	int max = 0;
+	for (Entry <String,Integer> ent: hm.entrySet()) {
+		String key = ent.getKey();
+		int val =  ent.getValue();
+		System.out.println(key +","+val);
 		
 	}
 

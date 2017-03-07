@@ -36,6 +36,12 @@ public class regex {
 		String y = Arrays.toString(x); // Converts String array to string
 		System.out.println(y);
 		
+		String s = "string 9 string 8";
+		String rx = "[0-9]";
+		String[] sa = s.split(rx);
+		s = Arrays.toString(sa);
+		System.out.println(s);
+		
 		
 	}
 

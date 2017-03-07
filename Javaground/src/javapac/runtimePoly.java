@@ -1,6 +1,6 @@
 package javapac;
 
-public class runtimePoly {
+public abstract class runtimePoly {
 	public void speak(){
 		System.out.print("Base sound");
 	}
@@ -14,7 +14,7 @@ public class runtimePoly {
 		rover.speak();
 		rover.stafunc();
 		runtimePoly.stafunc();
-		runtimePoly rtp = new runtimePoly();
+		runtimePoly rtp = new dog();
 		rtp.stafunc();
 		runtimePoly spitter = new cat();
 		spitter.speak();

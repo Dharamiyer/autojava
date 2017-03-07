@@ -5,7 +5,7 @@ import java.util.Stack;
 public class bracketBalance {
 
 	public static void main(String[] args) {
-		String brac ="{[()]})";
+		String brac ="{[()]}";
 		Boolean balanced = false;
 		int a = 0;
 		balanced = bracketBalance.CheckParentesis(brac);
